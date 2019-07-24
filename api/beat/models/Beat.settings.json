@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "beats",
+  "info": {
+    "name": "beat",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "text"
+    },
+    "mp3": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "wav": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "stems": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "producer": {
+      "model": "producer",
+      "via": "beats"
+    }
+  }
+}

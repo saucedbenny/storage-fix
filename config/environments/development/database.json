@@ -1,5 +1,5 @@
 {
-  "defaultConnection": "default",
+  "defaultConnection": "v02",
   "connections": {
     "default": {
       "connector": "strapi-hook-bookshelf",
@@ -10,9 +10,24 @@
         "port": 3306,
         "username": "root",
         "password": "tenpenny1",
-        "ssl": true
+        "ssl": true,
+        "enabled": true,
+        "defaultConnection": "default"
       },
       "options": {}
+    },
+    "v02": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "mysql",
+        "host": "35.203.40.88",
+        "port": 3306,
+        "database": "v02",
+        "username": "root",
+        "password": "tenpenny1",
+        "enabled": true,
+        "defaultConnection": "default"
+      }
     }
   }
 }

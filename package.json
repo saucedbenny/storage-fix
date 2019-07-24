@@ -18,20 +18,23 @@
     "eslint-plugin-react": "^7.14.0"
   },
   "dependencies": {
+    "develop": "^1.0.0",
+    "knex": "latest",
     "lodash": "^4.17.5",
-    "strapi": "3.0.0-beta.13",
-    "strapi-admin": "3.0.0-beta.13",
-    "strapi-utils": "3.0.0-beta.13",
-    "strapi-plugin-settings-manager": "3.0.0-beta.13",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.13",
-    "strapi-plugin-content-manager": "3.0.0-beta.13",
-    "strapi-plugin-users-permissions": "3.0.0-beta.13",
-    "strapi-plugin-email": "3.0.0-beta.13",
-    "strapi-plugin-upload": "3.0.0-beta.13",
+    "mysql": "latest",
+    "start": "^5.1.0",
+    "strapi": "^3.0.0-next.17",
+    "strapi-admin": "^3.0.0-next.17",
     "strapi-hook-bookshelf": "3.0.0-beta.13",
     "strapi-hook-knex": "3.0.0-beta.13",
-    "knex": "latest",
-    "mysql": "latest"
+    "strapi-plugin-content-manager": "3.0.0-beta.13",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.13",
+    "strapi-plugin-documentation": "^3.0.0-beta.13",
+    "strapi-plugin-email": "3.0.0-beta.13",
+    "strapi-plugin-settings-manager": "3.0.0-beta.13",
+    "strapi-plugin-upload": "3.0.0-beta.13",
+    "strapi-plugin-users-permissions": "^3.0.0-next.17",
+    "strapi-utils": "3.0.0-beta.13"
   },
   "author": {
     "name": "A Strapi developer"

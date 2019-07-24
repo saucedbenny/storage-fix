@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "producers",
+  "info": {
+    "name": "producer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "handle": {
+      "type": "string"
+    },
+    "beats": {
+      "collection": "beat",
+      "via": "producer"
+    }
+  }
+}
